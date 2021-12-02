@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js" integrity="sha512-WL6WGKMPBiM9PnHRYIn5YEtq0Z8XP4fkVb4qy7PP4vhmYQErJ/dySyXuFIMDf1eEYCXCrQrMJfkNwKc9gsjTjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="/styles.css">
     <title>Kenochat</title>
 </head>
 <body>
+
+    <div id='container'>
     <div id="mario-chat">
+        <div id="header">
         <h2>Kenochat</h2>
+        </div>
         <div id="chat-window">
             <div id="output"></div>
             <div id="feedback"></div>
         </div>
-        <input id="handle" type="text" placeholder="Handle" />
-        <input id="message" type="text" placeholder="Message" />
+        <input id="handle" type="text" placeholder="Your handle" />
+        <input id="message" type="text" placeholder="Your message" />
         <button id="send">Send</button>
     </div>
+
+    <div id='image'>
+        <img src="./mobile.svg" alt="">
+
+    </div>
+
+</div>
     <script src="/chat.js"></script>
 </body>
 </html>
