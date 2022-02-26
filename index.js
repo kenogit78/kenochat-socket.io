@@ -12,7 +12,8 @@ var server = app.listen(port, function(){
 
 
 //static files(middlewares)
-app.use(express.static('public'));
+app.use('/', express.static('public'))
+// app.use(express.static('public'));
 
 
 //socket setup
