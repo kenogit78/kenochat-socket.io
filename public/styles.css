@@ -29,9 +29,9 @@ h2{
     height: 80vh;
     /* padding: 4em 7em ; */
     margin: 30px auto;
-    border: 2px solid #ddd;
+    border: 2px solid #575ed8;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #chat-window{
